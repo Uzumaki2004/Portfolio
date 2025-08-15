@@ -422,6 +422,12 @@ footer {
         margin-top: 1.5rem;
         padding: 1rem;
     }
+    .nav-links a{
+        color: var(--white);
+    }
+    li a::before{
+         background:linear-gradient(to right, var(--skyblue), var(--white));
+    }
     .nav-links.active{
         display: block;
     }
